@@ -1,0 +1,19 @@
+PrintHelloRec
+package edu.stpeters;
+public class PrintHelloRec {
+	public static void main(String[]args) {
+		int n = 500;
+		printHello(n);
+	}
+	private static void printHello(int n) {
+		if(n != 0) {
+			System.out.println("Meenu");
+			
+			printHello(n-1);
+			
+		}
+		
+	}
+ 
+}
+
